@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="java_github_crawler:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ed8ea7b-8940-49d4-ac54-94e8d82008b4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="github_crawler" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="github_crawler" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java_github_carwler" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven\M2Repository" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.6.1" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.1\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectId" id="1Z6wtARrYHGuAJ4sriZs1n8EzUc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webapp" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projectJava\java_github_\src\main\webapp" />
+      <recent name="F:\projectJava\java_github_\webapp" />
+      <recent name="F:\projectJava\java_github_\src\main\java\dao" />
+      <recent name="F:\projectJava\java_github_\src\main\java\carwler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\projectJava\java_github_\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Crawler">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.A" />
+      <module name="java_github_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Crawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crawler.Crawler" />
+      <module name="java_github_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="carwler.Test" />
+      <module name="java_github_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Crawler" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:github_crawler" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:github_crawler" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4bfb4bf6" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\xigua\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ed8ea7b-8940-49d4-ac54-94e8d82008b4" name="Default Changelist" comment="" />
+      <created>1584173063311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584173063311</updated>
+      <workItem from="1584173066042" duration="1153000" />
+      <workItem from="1584174858795" duration="190000" />
+      <workItem from="1584175066369" duration="67000" />
+      <workItem from="1584175536587" duration="684000" />
+      <workItem from="1584176327128" duration="3627000" />
+      <workItem from="1584237590186" duration="4886000" />
+      <workItem from="1584328636457" duration="12848000" />
+      <workItem from="1584357062499" duration="4732000" />
+      <workItem from="1584411310922" duration="9758000" />
+      <workItem from="1584437540419" duration="3713000" />
+      <workItem from="1584499766307" duration="2381000" />
+      <workItem from="1584599583764" duration="1507000" />
+      <workItem from="1584771997857" duration="5731000" />
+      <workItem from="1584778180419" duration="5181000" />
+      <workItem from="1584842586737" duration="18295000" />
+      <workItem from="1584929442227" duration="14249000" />
+      <workItem from="1585020258634" duration="5398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1584175622418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584175622418" />
+    <state x="218" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584438871573">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="218" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584438871573" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1584863631128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584863631128" />
+    <state x="522" y="200" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584775598055">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="200" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1584775598055" />
+    <state x="582" y="328" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1584175620049">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="582" y="328" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1584175620049" />
+    <state x="557" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1584175614665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="557" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1584175614665" />
+    <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1584772324046">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1584772324046" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1584775708936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584775708936" />
+    <state width="722" height="198" key="GridCell.Tab.0.bottom" timestamp="1584978332908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="722" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584978332908" />
+    <state width="722" height="198" key="GridCell.Tab.0.center" timestamp="1584978332908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="722" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584978332908" />
+    <state width="722" height="198" key="GridCell.Tab.0.left" timestamp="1584978332907">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="722" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584978332907" />
+    <state width="722" height="198" key="GridCell.Tab.0.right" timestamp="1584978332908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="722" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584978332908" />
+    <state width="1493" height="390" key="GridCell.Tab.1.bottom" timestamp="1584426570965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="390" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584426570965" />
+    <state width="1493" height="390" key="GridCell.Tab.1.center" timestamp="1584426570965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="390" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584426570965" />
+    <state width="1493" height="390" key="GridCell.Tab.1.left" timestamp="1584426570965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="390" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584426570965" />
+    <state width="1493" height="390" key="GridCell.Tab.1.right" timestamp="1584426570965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="390" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584426570965" />
+    <state width="229" height="477" key="HiddenNamespacesPopup" timestamp="1584773921881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="229" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1584773921881" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1584931336508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584931336508" />
+    <state width="498" height="477" key="SwitcherDM" timestamp="1584942766214">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="477" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1584942766214" />
+    <state x="609" y="106" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1584438738021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="609" y="106" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1584438738021" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1585020258628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585020258628" />
+    <state x="178" y="116" key="new project wizard" timestamp="1584345477232">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584345477232" />
+    <state x="75" y="178" key="run.anything.popup" timestamp="1584942066449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="75" y="178" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584942066449" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1584942805045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584942805045" />
+  </component>
+</project>
