@@ -6,7 +6,7 @@
 </head>
 <body>
 <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
-<div id="main" style="width: 100%;height:600px;"></div>
+<div id="main" style="width: 100%;height:200px;"></div>
 
 <!--从网络上下载 JQuery 这个库-->
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -15,54 +15,26 @@
 <script>
 
 
-    //echarts 解析json网页
-    function drawStars(projectNames, stars, links) {
-        //画图
-        var myChart = echarts.init(document.getElementById('main'));
-
-        // 指定图表的配置项和数据
-        var option = {
-            title: {
-                text: 'star 天榜'
-            },
-            tooltip: {},
-            legend: {
-                data:['star']
-            },
-            xAxis: {
-                // data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
-                data: projectNames
-            },
-            yAxis: {},
-            series: [{
-                name: 'star',
-                type: 'bar',    // bar 表示柱状图
-                data: stars,
-            },
-
-            ],
-            dataZoom: [
-                {   // 这个dataZoom组件，默认控制x轴。
-                    type: 'slider', // 这个 dataZoom 组件是 slider 型 dataZoom 组件
-                    start: 0,      // 左边在 10% 的位置。
-                    end: 2         // 右边在 60% 的位置。
-                },
-                {   // 这个dataZoom组件，也控制x轴。
-                    type: 'inside', // 这个 dataZoom 组件是 inside 型 dataZoom 组件
-                    start: 0,      // 左边在 10% 的位置。
-                    end: 2         // 右边在 60% 的位置。
-                }
-            ],
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
-        // 处理点击事件并且跳转到相应的百度搜索页面
-        myChart.on('click', function (params) {
-            window.open(encodeURIComponent(params));
-            console.log(params);
-        });
-    }
+	function drawDiv(projectNames, stars, links, descriptions, forks, issues){
+	
+    var div = document.getElementById('div1');  
+		var html = '<ul>';  
+		for (var i=0, j = projectNames.length; i<j ; i++) {  
+			html += '<div class="col-md-12><div class="thumbnail"><div class="caption"> <h3> <a href='+links[i]+' >' + projectNames[i] + '</a>';  
+			html += '</h3>';
+			html += '<p>' + descriptions[i] + '</p>';
+			html += '</div>';
+			html += '<div class="content-label"> <a><span>star&nbsp : &nbsp' + stars[i] + '&nbsp&nbsp</span> </a>';
+			html += ' <a><span>fork&nbsp : &nbsp' + forks[i] + '&nbsp&nbsp</span> </a>';
+			html += ' <a><span>issue&nbsp : &nbsp' + issues[i] + '</span> </a>';
+			html += '</div>';
+			html += '</div>';
+			html += '</div';
+		}  
+		html += '</ul>';  
+		div.innerHTML = html;  
+	}
+  
 
     /*
      * @return {string}
@@ -101,14 +73,20 @@
             var projectNames = [];
             var stars = [];
             var links = [];
+			var forks = [];
+			var issues = [];
+			var descriptions = [];
             // 遍历 data 中的内容.
             for (var index in data) {
                 var project = data[index];
                 projectNames.push(project.name);
                 stars.push(project.star);
-                links.push(project.url)
+                links.push(project.url);
+				forks.push(project.fork);
+				issues.push(project.issue);
+				descriptions.push(project.description);
             }
-            drawStars(projectNames, stars, links);
+            drawDiv(projectNames, stars, links,descriptions, forks, issues);
         }
 
     })
@@ -120,5 +98,6 @@
     // var stars = [1, 2, 3, 4];
     // drawStars(projectNames, stars);
 </script>
+<div id="div1"></div>
 </body>
 </html>
